@@ -30,21 +30,20 @@ Steps to follow in setting integration test.
 	
  5. Update the wunderlist properties file at location "{WUNDERLIST_HOME}/src/test/resources/artifacts/ESB/connector/config" as below.
 																			  
-	i)		apiUrl 							- 	The API URL of the WunderList account (e.g.: https://a.wunderlist.com).
-	ii) 	accessToken						-   Use the access token obtained under step 4 (ii).
-	iii)	clientId						-	Use the client ID obtained under step 4 (ii).
-	iv)		listTitleMand					-	Text to be used as 'title' while creating a list with mandatory parameters.
-	v)		listTitleUpdate					-	Text to be used as 'title' while updating a list with optional parameters.
-	vi)		folderNameMand					- 	Text to be used as 'name' while creating a folder with mandatory parameters.
-	vii)	folderNameUpdate				- 	Text to be used as 'name' while updating a folder with optional parameters.
-	viii)	updatelistTitle					-	Text to be used as list 'title' while updating a folder with optional parameters.
-	ix)		taskTitleMand					-	Text to be used as 'title' while creating a task with mandatory parameters.
-	x)		taskTitleOpt					-	Text to be used as 'title' while creating a task with optional parameters.
-	xi)		askTitleUpdate					-	Text to be used as 'title' while updating a task with optional parameters.
-	xii)	taskDueDate						-	Date to be used as 'due_date' while creating a task with optional parameters (date format should be yyyy-MM-dd).
-	xiii)	contentMand						-	Text to be used as 'content' while creating a task note with mandatory parameters.
-	xiv)	contentUpdate					-	Text to be used as 'content' while updating a task note with optional parameters.	
-	xv)		reminderDate					-	Date to be used as 'reminder_date' while creating a task reminder with mandatory parameters (date format should be yyyy-MM-dd).
+	i) apiUrl 		- 	The API URL of the WunderList account (e.g.: https://a.wunderlist.com).
+       ii) accessToken		-       Use the access token obtained under step 4 (ii).
+      iii) clientId		-	Use the client ID obtained under step 4 (ii).
+       iv) listTitleMand	-	Text to be used as 'title' while creating a list with mandatory parameters.
+	v) listTitleUpdate	-	Text to be used as 'title' while updating a list with optional parameters.
+       vi) folderNameMand	- 	Text to be used as 'name' while creating a folder with mandatory parameters.
+      vii) folderNameUpdate	- 	Text to be used as 'name' while updating a folder with optional parameters.
+     viii) updatelistTitle	-	Text to be used as list 'title' while updating a folder with optional parameters.
+       ix) taskTitleMand	-	Text to be used as 'title' while creating a task with mandatory parameters.
+	x) taskTitleOpt		-	Text to be used as 'title' while creating a task with optional parameters.
+       xi) askTitleUpdate       -	Text to be used as 'title' while updating a task with optional parameters. 
+      xii) taskDueDate		-	Date to be used as 'due_date' while creating a task with optional parameters (date format should be yyyy-MM-dd).
+     xiii) contentMand		-	Text to be used as 'content' while creating a task note with mandatory parameters.
+      xiv) contentUpdate	-	Text to be used as 'content' while updating a task note with optional parameters.	       xv) reminderDate		-	Date to be used as 'reminder_date' while creating a task reminder with mandatory parameters (date format should be yyyy-MM-dd).
 		
  7. Navigate to "{WUNDERLIST_HOME}/" and run the following command.
          $ mvn clean install
