@@ -1,9 +1,4 @@
 {
-  "list_id":
-  %
-  s
-  (
-  listId
-  ),
+  "list_id":%s(listId),
   "title": ""
 }

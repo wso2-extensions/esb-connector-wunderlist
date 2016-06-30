@@ -1,9 +1,4 @@
 {
-  "task_id":
-  %
-  s
-  (
-  taskIdOpt
-  ),
+  "task_id":%s(taskIdOpt),
   "date": "%s(reminderDate)"
 }

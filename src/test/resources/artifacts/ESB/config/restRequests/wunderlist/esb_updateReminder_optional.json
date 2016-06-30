@@ -3,11 +3,6 @@
   "accessToken": "%s(accessToken)",
   "clientId": "%s(clientId)",
   "reminderId": "%s(reminderId)",
-  "revision":
-  %
-  s
-  (
-  reminderRevision
-  ),
+  "revision":%s(reminderRevision),
   "date": "%s(reminderDateUpdate)"
 }

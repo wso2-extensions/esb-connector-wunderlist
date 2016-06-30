@@ -3,10 +3,5 @@
   "accessToken": "%s(accessToken)",
   "clientId": "%s(clientId)",
   "listId": "%s(listId)",
-  "completed":
-  %
-  s
-  (
-  taskCompleted
-  )
+  "completed":%s(taskCompleted)
 }

@@ -2,12 +2,6 @@
   "apiUrl": "%s(apiUrl)",
   "accessToken": "%s(accessToken)",
   "clientId": "%s(clientId)",
-  "listIds": [
-    %
-  s
-  (
-  listId
-  )
-],
+  "listIds": [%s(listId)],
   "title": ""
 }

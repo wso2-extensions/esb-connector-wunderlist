@@ -1,8 +1,3 @@
 {
-  "revision":
-  %
-  s
-  (
-  taskRevisionOpt
-  )
+  "revision":%s(taskRevisionOpt)
 }

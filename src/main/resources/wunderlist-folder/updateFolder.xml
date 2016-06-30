@@ -29,11 +29,6 @@
         <property name="uri.var.revision" expression="$func:revision"/>
         <script language="js">
             <![CDATA[
-            var title = mc.getProperty('uri.var.title');
-            var jsonPayload = mc.getPayloadJSON();
-            if (title != null && title != ""){
-               mc.setProperty('uri.var.title', ',"title":"' + title + '"');
-            }         
             var listIds = mc.getProperty('uri.var.listIds');            
             if (listIds == null || listIds == ""){
                mc.setProperty('uri.var.listIds', '[]');
@@ -45,15 +40,23 @@
                 {
                 "revision": $1,
                 "list_ids": $2
-                $3
                 }
             </format>
             <args>
                 <arg expression="get-property('uri.var.revision')"/>
                 <arg expression="get-property('uri.var.listIds')"/>
-                <arg expression="get-property('uri.var.title')"/>
             </args>
         </payloadFactory>
+        <script language="js">
+            <![CDATA[
+            var jsonPayload = mc.getPayloadJSON();
+            var title = mc.getProperty('uri.var.title');
+            if (title != null && title != ""){
+               jsonPayload.title = title;
+            }
+            mc.setPayloadJSON(jsonPayload);
+         ]]>
+        </script>
         <call>
             <endpoint>
                 <http method="put" uri-template="{uri.var.apiUrl}/folders/{uri.var.folderId}"/>
