@@ -3,11 +3,6 @@
   "accessToken": "%s(accessToken)",
   "clientId": "%s(clientId)",
   "listId": "%s(listId)",
-  "revision":
-  %
-  s
-  (
-  listRevision
-  ),
+  "revision":%s(listRevision),
   "title": "%s(listTitleUpdate)"
 }

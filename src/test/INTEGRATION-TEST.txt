@@ -10,19 +10,19 @@ Tested Platform:
 
  - Microsoft WINDOWS V-7
  - UBUNTU 13.04
- - WSO2 ESB 4.9.0
+ - WSO2 ESB 4.9.0, 5.0.0-BETA
  - Java 1.7
 
 Steps to follow in setting integration test.
 
- 1. Download ESB 4.9.0
+ 1. Download ESB 5.0.0-BETA
 
  2. Navigate to location "<ESB_HOME>/repository/conf/axis2" and add/uncomment following lines in "axis2.xml".
  
 		<messageFormatter contentType="text/html" class="org.wso2.carbon.relay.ExpandingMessageFormatter"/>
 		<messageBuilder contentType="text/html" class="org.wso2.carbon.relay.BinaryRelayBuilder"/>
  
- 3. Compress modified ESB as wso2esb-4.9.0.zip and copy that zip file in to location "{WUNDERLIST_HOME}/repository/".
+ 3. Compress modified ESB as wso2esb-5.0.0-BETA.zip and copy that zip file in to location "{WUNDERLIST_HOME}/repository/".
 
  4. Create a WunderList trial account and derive the Client ID and Access Token.
 	i) 	 Using the URL "https://www.wunderlist.com" create a WunderList trial account.
@@ -43,7 +43,8 @@ Steps to follow in setting integration test.
        xi) askTitleUpdate       -	Text to be used as 'title' while updating a task with optional parameters. 
       xii) taskDueDate		-	Date to be used as 'due_date' while creating a task with optional parameters (date format should be yyyy-MM-dd).
      xiii) contentMand		-	Text to be used as 'content' while creating a task note with mandatory parameters.
-      xiv) contentUpdate	-	Text to be used as 'content' while updating a task note with optional parameters.	       xv) reminderDate		-	Date to be used as 'reminder_date' while creating a task reminder with mandatory parameters (date format should be yyyy-MM-dd).
+      xiv) contentUpdate	-	Text to be used as 'content' while updating a task note with optional parameters.
+      xv) reminderDate		-	Date to be used as 'reminder_date' while creating a task reminder with mandatory parameters (date format should be yyyy-MM-dd).
 		
  7. Navigate to "{WUNDERLIST_HOME}/" and run the following command.
          $ mvn clean install

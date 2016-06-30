@@ -2,11 +2,6 @@
   "apiUrl": "%s(apiUrl)",
   "accessToken": "%s(accessToken)",
   "clientId": "%s(clientId)",
-  "taskId":
-  %
-  s
-  (
-  taskIdOpt
-  ),
+  "taskId":%s(taskIdOpt),
   "date": "%s(reminderDate)"
 }

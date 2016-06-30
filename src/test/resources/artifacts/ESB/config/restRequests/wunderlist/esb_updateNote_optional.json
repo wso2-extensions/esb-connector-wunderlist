@@ -3,11 +3,6 @@
   "accessToken": "%s(accessToken)",
   "clientId": "%s(clientId)",
   "noteId": "%s(noteId)",
-  "revision":
-  %
-  s
-  (
-  noteRevision
-  ),
+  "revision":%s(noteRevision),
   "content": "%s(contentUpdate)"
 }

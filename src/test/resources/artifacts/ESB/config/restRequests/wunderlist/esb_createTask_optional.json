@@ -5,23 +5,8 @@
   "listId": "%s(listId)",
   "title": "%s(taskTitleOpt)",
   "dueDate": "%s(taskDueDate)",
-  "starred":
-  %
-  s
-  (
-  taskStarred
-  ),
-  "completed":
-  %
-  s
-  (
-  taskCompleted
-  ),
+  "starred":%s(taskStarred),
+  "completed":%s(taskCompleted),
   "recurrenceType": "%s(taskRecurrenceType)",
-  "recurrenceCount":
-  %
-  s
-  (
-  taskRecurrenceCount
-  )
+  "recurrenceCount":%s(taskRecurrenceCount)
 }

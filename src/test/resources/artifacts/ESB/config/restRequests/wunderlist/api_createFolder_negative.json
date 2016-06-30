@@ -1,10 +1,4 @@
 {
   "title": "",
-  "list_ids": [
-    %
-  s
-  (
-  listId
-  )
-]
+  "list_ids": [%s(listId)]
 }
