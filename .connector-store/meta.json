@@ -4,7 +4,7 @@
     "category": "Productivity Tools",
     "documentationUrl": "https://docs.wso2.com/display/ESBCONNECTORS/Wunderlist+Connector",
     "description": "The Wunderlist connector allows you to access the Wunderlist REST API through the WSO2 ESB. Wunderlist helps to capture ideas, things to do and places to see. Wunderlist makes it easy to share lists and collaborate with others. Wunderlist instantly syncs between devices, making the content more accessible.",
-    "status": "Unsupported",
+    "status": "Active",
     "labels": [
         "connector"
     ],
